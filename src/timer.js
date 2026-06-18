@@ -1,5 +1,5 @@
 const timers = new Map()
-const TIMEOUT_MS = 3 * 60 * 1000 // 3 menit
+const TIMEOUT_MS = 5 * 1000 // 5 detik
 
 export function startTimer(jid, onTimeout) {
   cancelTimer(jid)
